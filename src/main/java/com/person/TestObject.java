@@ -63,6 +63,7 @@ public class TestObject {
 		System.out.println("n1.hashcode=" + n1.hashCode());
 		System.out.println("n2.hashcode=" + n2.hashCode());
 		System.out.println(c);
+		
 		/**
 		 * n1.equals(n2)==true
 ------------
