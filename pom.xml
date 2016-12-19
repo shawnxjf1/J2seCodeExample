@@ -72,6 +72,13 @@
         <version>${spring.version}</version>  
     </dependency>  
     
+    <!--  apache ftp client -->
+    <dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+			<version>3.3</version>
+		</dependency>
+    
        <dependency>
     <groupId>commons-beanutils</groupId>
     <artifactId>commons-beanutils</artifactId>
