@@ -1,5 +1,6 @@
 package com.person.string;
 
+import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 
 public class TestStringFunc {
@@ -75,6 +76,24 @@ public class TestStringFunc {
 		String name = "a.b.c";
 		String path = name.replace('.', '/').concat("/");
 		System.out.println("path=" + path); //path=a/b/c/
+	}
+	
+	@Test
+	public void testStringEmpty()
+	{
+		System.out.println("' ' isBlank=" + StringUtils.isBlank(" "));
+		System.out.println("' ' isEmpty=" +  StringUtils.isEmpty(" "));
+		/**
+		 * 2016-12-20
+		 *' ' isBlank=true
+		 *' ' isEmpty=false
+*'' isBlank=true
+*'' isEmpty=true
+		 */
+		
+		System.out.println("'' isBlank=" + StringUtils.isBlank(""));
+		System.out.println("'' isEmpty=" +  StringUtils.isEmpty(""));
+
 	}
 	
 	/**
