@@ -110,5 +110,31 @@ public class TestReflect {
 2016-12-01 19:26:33,803 INFO  main com.person.reflection.TestReflect 1450575459
 		 */
 	}
+	
+	/**
+	 * 参考
+	 * http://stackoverflow.com/questions/15078935/what-does-class-mean-in-java<br>
+	 * When you write .class after a class name, it references the Class object that represents the given class.<br>
+	 */
+	@Test
+	public void testClassAddress()
+	{
+		log.info("1.TestReflect.class=" + TestReflect.class.hashCode());
+		log.info("2.TestReflect.class=" + TestReflect.class.hashCode());
+		log.info("3.Handler.class=" + Handler.class.hashCode());
+		
+		log.info("4.TestReflect.class.getName=" + TestReflect.class.getName());
+		
+		log.info("5.(new TestReflect()).getClass().getName()=" + (new TestReflect()).getClass().getName());
+		/**
+		 * 2017-01-04
+		 * 2017-01-04 13:13:09,183 INFO  main com.person.reflection.TestReflect 1.TestReflect.class=1645995473
+		2017-01-04 13:13:09,184 INFO  main com.person.reflection.TestReflect 2.TestReflect.class=1645995473
+		2017-01-04 13:13:09,185 INFO  main com.person.reflection.TestReflect 3.Handler.class=977993101
+		
+		2017-01-04 14:05:46,024 INFO  main com.person.reflection.TestReflect 4.TestReflect.class.getName=com.person.reflection.TestReflect
+2017-01-04 14:05:46,024 INFO  main com.person.reflection.TestReflect 5.(new TestReflect()).getClass().getName()=com.person.reflection.TestReflect
+		 */
+	}
 
 }
