@@ -5,7 +5,28 @@ import java.util.HashSet;
 
 import org.junit.Test;
 
-public class TestObject {
+/**
+ *  Object.class关于hashcode的注释<br>
+     * 1.As much as is reasonably practical, the hashCode method defined by
+     * class {@code Object} does return distinct integers for distinct
+     * objects. (This is typically implemented by converting the internal
+     * address of the object into an integer, but this implementation
+     * technique is not required by the
+     * Java&trade; programming language.)
+     * 
+     * It is <em>not</em> required that if two objects are unequal
+     *     according to the {@link java.lang.Object#equals(java.lang.Object)}
+     *     method, then calling the {@code hashCode} method on each of the
+     *     two objects must produce distinct integer results.  However, the
+     *     programmer should be aware that producing distinct integer results
+     *     for unequal objects may improve the performance of hash tables.
+ */
+/**
+ * 
+ * @author lakala-shawn
+ *
+ */
+public class TestObjectEqualAndHash {
 	// object对象中的 public boolean equals(Object obj)，对于任何非空引用值 x 和 y，当且仅当 x 和 y
 	// 引用同一个对象时，此方法才返回 true；
 	// 注意：当此方法被重写时，通常有必要重写 hashCode 方法，以维护 hashCode
@@ -14,7 +35,8 @@ public class TestObject {
 	// (2)当obj1.hashCode() == obj2.hashCode()为false时，obj1.equals(obj2)必须为false
 
 	@Test
-	public void testObjEqualOverrite() {
+	public void testObjEqualOverriteButHashCodeNot() {
+		//Student 重写了equals方法<br>
 		Student stu = new Student("01Name", "01");
 		Student stuBak = new Student("01Name", "01");
 		if (stu == stuBak) {
@@ -23,9 +45,12 @@ public class TestObject {
 		if (stu.equals(stuBak)) {
 			System.out.println("stu.equals(stuBak)");
 		}
+		
+		System.out.println("stu.hashCode()=" + stu.hashCode() + ",stuBak.hashCode()=" + stuBak.hashCode());
 		/**
 		 * 2016年12月09日 输出<br>
 		 * stu.equals(stuBak)
+		 * stu.hashCode()=114935352,stuBak.hashCode()=2110121908  //注意两个hashCode 是不一样的<br>
 		 */
 	}
 
@@ -41,12 +66,17 @@ public class TestObject {
 		System.out.println("------------");
 		System.out.println("n1.hashcode=" + n1.hashCode());
 		System.out.println("n2.hashcode=" + n2.hashCode());
-		System.out.println(c);
+		System.out.println("collection=" + c);
+
 		/**
-		 * 2016年12月09日 测试结果：没有重写hashcode 一个collection里面存放了两个相同值得对象<br>
-		 * n1.equals(n2)==true ------------ n1.hashcode=1768673309
-		 * n2.hashcode=623662589 [com.person.Student@696bd01d,
-		 * com.person.Student@252c55fd]
+		 * 测试结果：没有重写hashcode 一个collection里面存放了两个相同值得对象,建"collection="<br>
+		 * n1.equals(n2)==true
+		 *------------
+		 *n1.hashcode=114935352
+		 *n2.hashcode=2110121908
+		 *collection=[com.person.Student@6d9c638, com.person.Student@7dc5e7b4] 
+		 //一个collection存放了两个相同值对象，地址不一样，这个是有问题的。 所以effective java中说了重写了equals必须重写hashCode<br>
+		  * 当重写equals时必须重写hashCode（Item9）<br>
 		 */
 	}
 	@Test
