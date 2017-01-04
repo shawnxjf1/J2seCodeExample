@@ -54,6 +54,18 @@ public class TestObjectEqualAndHash {
 		 */
 	}
 
+	/**
+	 * Whenever it is invoked on the same object more than once during
+     *     an execution of a Java application, the {@code hashCode} method
+     *     must consistently return the same integer, provided no information
+     *     used in {@code equals} comparisons on the object is modified.
+     *     This integer need not remain consistent from one execution of an
+     *     application to another execution of the same application.
+	 */
+	/**
+	 * 注意 testHashSet和testObjEqualOverride输出的hashCode是一样的<br>
+	 * 意思就是操作系统启动之后内存堆分配好了之后，hashCode多次执行结果是一样的<br>
+	 */
 	@Test
 	public void testHashSet() {
 		Student n1 = new Student("01Name", "01");
