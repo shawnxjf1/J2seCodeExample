@@ -90,6 +90,15 @@ public class TestObjectEqualAndHash {
 		 //一个collection存放了两个相同值对象，地址不一样，这个是有问题的。 所以effective java中说了重写了equals必须重写hashCode<br>
 		  * 当重写equals时必须重写hashCode（Item9）<br>
 		 */
+		
+		/**
+		 * 原因：查看hashMap源码：
+		 * HashMap.java-> 
+		 *  public V put(K key, V value) {
+        return putVal(hash(key), key, value, false, true);
+        }
+    }
+		 */
 	}
 	@Test
 	public void testStudentWithHashCode()
