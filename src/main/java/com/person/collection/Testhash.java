@@ -14,7 +14,7 @@ public class Testhash {
 	 * 参考:http://www.cnblogs.com/highriver/archive/2011/08/15/2139600.html <br>
 	 *  HashMap的功能是通过“键(key)”能够快速的找到“值”。下面我们分析下HashMap存数据的基本流程： 
       1、	当调用put(key,value)时，首先获取key的hashcode，int hash = key.hashCode(); 
-      2、	再把hash通过一下运算得到一个int h. 
+      2、	(得出均匀的index) 再把hash通过一下运算得到一个int h. 
             hash ^= (hash >>> 20) ^ (hash >>> 12); 
             int h = hash ^ (hash >>> 7) ^ (hash >>> 4); 
                             为什么要经过这样的运算呢？这就是HashMap的高明之处。先看个例子，一个十进制数32768(二进制1000 0000 0000 0000)，经过上述公式运算之后的结果是35080(二进制1000 1001 0000 1000)。看出来了吗？或许这样还看不出什么，再举个数字61440(二进制1111 0000 0000 0000)，运算结果是65263(二进制1111 1110 1110 1111)，现在应该很明显了，它的目的是让“1”变的均匀一点，散列的本意就是要尽量均匀分布。
@@ -31,5 +31,23 @@ public class Testhash {
 		System.out.println("8 & 8=" + (8 & 8));
 	}
 	
+	/**
+	 * a|b 肯定 大于 a b的任何一个<br>
+	 */
+	@Test
+	public void testOr()
+	{
+		System.out.println("1 | 8=" + (8 | 8));
+	}
+	
+	@Test
+	public void testHash()
+	{
+		int hash = 61440;
+		System.out.println("binaryString =" + Integer.toBinaryString(hash));
+		hash ^= (hash >>> 20) ^ (hash >>> 12); 
+		int h = hash ^ (hash >>> 7) ^ (hash >>> 4); 
+		System.out.println("h=" + Integer.toBinaryString(h));
+	}
 
 }

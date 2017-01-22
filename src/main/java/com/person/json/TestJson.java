@@ -7,7 +7,7 @@ public class TestJson {
    @Test
    public void testJsonAnnotation() {
 		
-		JsonUtil jUtil = new JsonUtil();
+		JsonUtil1 jUtil = new JsonUtil1();
 		jUtil.setName("xujianfneg");
 		jUtil.setValue("hahaha");
 		
