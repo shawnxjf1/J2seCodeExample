@@ -7,7 +7,9 @@ import java.net.URLClassLoader;
 
 import org.apache.log4j.Logger;
 import org.junit.Test;
-
+/**
+ * FIXME 了解为什么采用委托加载的机制<br>
+ */
 
 /**
  * 背景： 学习ClassLoader.getResource()时候不知道classLoader的边界，所以有必要把java类加载机制弄清楚
