@@ -96,6 +96,7 @@ public class TestRegex {
 		 */
 		
 		/**
+		 * 我们应该要看出算法和信息的流向，即我们应该知道动作和运行时，比如如下：<br>
 		 * 调试find() find为调用一次往前查找一次：
 		 * 1).第一次调用ng.find()之前first=0，to=30调用完ng.find()之后first=2,last=18<br>
 		 * 注意：a.sourceStr = "aa<div>test1</div>bb<div>test2</div>cc"; 的aa<div的<索引为2<br>

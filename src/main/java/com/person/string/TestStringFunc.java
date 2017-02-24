@@ -1,5 +1,7 @@
 package com.person.string;
 
+import java.io.UnsupportedEncodingException;
+
 import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 
@@ -78,21 +80,31 @@ public class TestStringFunc {
 		System.out.println("path=" + path); //path=a/b/c/
 	}
 	
+	/**
+	 * empty的含义就是什么字符都没有。
+	 */
 	@Test
 	public void testStringEmpty()
 	{
 		System.out.println("' ' isBlank=" + StringUtils.isBlank(" "));
 		System.out.println("' ' isEmpty=" +  StringUtils.isEmpty(" "));
+		System.out.println("'' isBlank=" + StringUtils.isBlank(""));
+		System.out.println("'' isEmpty=" +  StringUtils.isEmpty(""));
 		/**
 		 * 2016-12-20
-		 *' ' isBlank=true
-		 *' ' isEmpty=false
+		 *' ' isBlank=true 
+		 *' ' isEmpty=false 
 *'' isBlank=true
 *'' isEmpty=true
 		 */
 		
-		System.out.println("'' isBlank=" + StringUtils.isBlank(""));
-		System.out.println("'' isEmpty=" +  StringUtils.isEmpty(""));
+		System.out.println("for null,'' isBlank=" + StringUtils.isBlank(null));
+		System.out.println("for null,'' isEmpty=" +  StringUtils.isEmpty(null));
+		/**
+		 * 2017-02-10
+		 * for null,'' isBlank=true
+		 * for null,'' isEmpty=true
+		 */
 
 	}
 	
@@ -135,6 +147,32 @@ public class TestStringFunc {
 	
 		System.out.println("-----end--------");
 
+	}
+	
+	/**
+	 * 该函数可以用来判断 当前系统默认采用什么编码<br>
+	 */
+	@Test
+	public void printSystemEncoding()
+	{
+		String str1 = "拉卡拉";
+		byte [] byte1 = str1.getBytes();
+		System.out.println("new String in default encoding=" + new String(byte1));
+		try {
+			System.out.println("new String in UTF-8 encoding=" + new String(byte1,"UTF-8"));
+			System.out.println("new String in GBK encoding=" + new String(byte1,"GBK"));
+
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+		/**
+		 * 2017-02-24
+		 *new String in default encoding=拉卡拉
+new String in UTF-8 encoding=拉卡拉
+new String in GBK encoding=鎷夊崱鎷�
+
+		 */
+		
 	}
 	
 	/**
