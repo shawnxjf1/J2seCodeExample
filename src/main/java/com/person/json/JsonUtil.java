@@ -7,6 +7,11 @@ import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
+import org.codehaus.jackson.JsonNode;
+import org.codehaus.jackson.JsonProcessingException;
+
+import com.sun.javafx.collections.MappingChange.Map;
+
 
 
 public class JsonUtil {
@@ -46,6 +51,27 @@ public class JsonUtil {
 		} catch (JsonMappingException e) { 
 			e.printStackTrace();
 		} catch (IOException e) { 
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	
+	public static JsonNode getJsonTree()
+	{
+		String jsonStr1 = "response:{\"data\":{\"systti\":\"15:10:40\",\"blncdn\":\"C\",\"brchqy\":\"\",\"success\":null}}";
+		ObjectMapper objectMapper = new ObjectMapper();
+
+		//允许类中缺少 json字符串中的字段
+		objectMapper.configure(DeserializationConfig.Feature.FAIL_ON_UNKNOWN_PROPERTIES,false);  
+//        objectMapper.configure(SerializationConfig.Feature.FAIL_ON_EMPTY_BEANS, false);  
+		try {
+			return objectMapper.readTree(jsonStr1);
+		} catch (JsonProcessingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return null;

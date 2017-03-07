@@ -10,7 +10,7 @@ import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.JsonMappingException;
 
-public class JsonUtil1{
+public class JsonAnnotationPojo{
 	
 	@JsonProperty
 	private String name;
@@ -35,7 +35,7 @@ public class JsonUtil1{
 		this.value = value;
 	}
 
-	Logger logger = Logger.getLogger(JsonUtil1.class);
+	Logger logger = Logger.getLogger(JsonAnnotationPojo.class);
 	
 	/**
 	 * FIXME json对于null 的属性 怎么不让它输出<br>
