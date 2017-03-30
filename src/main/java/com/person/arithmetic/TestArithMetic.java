@@ -2,6 +2,11 @@ package com.person.arithmetic;
 
 import org.junit.Test;
 
+/**
+ * 这里的规律是 a&b < a,b中的任何一个。
+ * @author lakala-shawn
+ *
+ */
 public class TestArithMetic {
 
 	/**
