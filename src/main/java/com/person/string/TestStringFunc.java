@@ -3,9 +3,12 @@ package com.person.string;
 import java.io.UnsupportedEncodingException;
 
 import org.apache.commons.lang.StringUtils;
+import org.jboss.netty.util.internal.StringUtil;
 import org.junit.Test;
 
 public class TestStringFunc {
+
+
 
 	@Test
 	public void testSplit() {
@@ -14,6 +17,7 @@ public class TestStringFunc {
 		String[] strArrays = "TXNTIM:1".split("\\|");
 		System.out.println(strArrays.toString());
 	}
+
 
 	/**
 	 * subString()中无需考虑正则
@@ -79,6 +83,25 @@ public class TestStringFunc {
 		String path = name.replace('.', '/').concat("/");
 		System.out.println("path=" + path); //path=a/b/c/
 	}
+
+	@Test
+	public void testRunWithRepaceUrll()
+	{
+		//注意 public String replaceAll(String regex, String replacement)替换的是
+		String upstreamUrl = "================\"$ORDERID$\"=========".replaceAll("\\$ORDERID\\$", "123");
+		System.out.println("replaceAll-result=" + upstreamUrl);
+
+		String abcUrl="==========\"$ORDERID$\"=========".replace("$ORDERID$", "1234");
+		System.out.println("replace-result=" + abcUrl);
+
+		/**
+		 * 结果：
+		 * replaceAll-result================="123"=========
+		 replace-result==========="1234"=========
+		 */
+	}
+
+
 	
 	/**
 	 * empty的含义就是什么字符都没有。

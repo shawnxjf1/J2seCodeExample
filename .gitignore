@@ -15,7 +15,7 @@ _netrc
 .settings
 .project
 .classpath
-.metadata
+.metadata/*
 .idea
 
 ## Ignore project files created by IntelliJ IDEA
@@ -23,3 +23,5 @@ _netrc
 *.ipr
 *.iws
 .idea
+
+_netrc
