@@ -15,7 +15,7 @@ _netrc
 .settings
 .project
 .classpath
-.metadata/*
+.metadata/*  ##  下面有文件夹的要这么写。
 .idea
 
 ## Ignore project files created by IntelliJ IDEA
