@@ -207,5 +207,19 @@ new String in GBK encoding=鎷夊崱鎷�
 			return super.equals(obj);
 		}
 	}
+	
+	@Test
+	public void testStringEqual()
+	{
+		String s0 = "good";
+		String s1 = "go" + "od";
+		String s2 = new String("good");
+		String s3 = "go" + new String("od");
+		String s4 = s3.intern(); //intern动态加入常量区，如果存在就返回引用。否则常量池返回添加一个unicode 为good 的字符串并返回其引用。
+		System.out.println(s0 == s1);
+		System.out.println(s0 == s2);
+		System.out.println(s0 == s3);
+		System.out.println(s0 == s4);
+	}
 
 }

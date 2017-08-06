@@ -17,7 +17,7 @@ public class SonSynchronized extends FatherSynchronized{
 		SonSynchronized son = new SonSynchronized();
 		son.doSomething();
 		/**
-		 * 2016年11月27日 执行结果:说明获取锁的粒度是线程而不是调用<br>
+		 * 2016年11月27日 执行结果:说明获取锁的粒度是线程而不是调用，就是这个锁字啊整个线程是有效的。<br>
 		 * father do something
 		 * son do something
 		 */
