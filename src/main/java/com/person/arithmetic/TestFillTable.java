@@ -22,8 +22,6 @@ public class TestFillTable {
 		public void setAmount(int amount) {
 			this.amount = amount;
 		}
-		
-		
 	}
 	
 	public void fillByNearBy(Date curDay)
@@ -72,7 +70,6 @@ public class TestFillTable {
 			{
 				list1.get(i).setAmount((list1.get(i-1).amount + list1.get(i+1).amount)/2);
 			}
-			
 			else if (list1.get(i+1).amount == 0)
 			{
 				list1.get(i).setAmount(list1.get(i-1).amount);
@@ -80,6 +77,7 @@ public class TestFillTable {
 			//i =0 null value
 		}
 		list1.get(list1.size()-1).setAmount(list1.get(list1.size()-2).amount);
+		return null;
 	}
 
 }
