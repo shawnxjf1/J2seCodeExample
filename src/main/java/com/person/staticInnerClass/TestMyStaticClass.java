@@ -1,5 +1,6 @@
 package com.person.staticInnerClass;
 
+//FIXME 谢了代码一定要描述出自己的认知，不然自己还要搞一遍。<br>
 /**
  * 参考：http://stackoverflow.com/questions/7486012/static-classes-in-java <br>
  * 
