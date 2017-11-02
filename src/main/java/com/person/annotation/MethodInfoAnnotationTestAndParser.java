@@ -45,7 +45,11 @@ public class MethodInfoAnnotationTestAndParser {
 					}
 				}
 			}
-		} catch (SecurityException | ClassNotFoundException e) {
+		} catch (SecurityException e) {
+			e.printStackTrace();
+		}
+		catch( ClassNotFoundException e)
+		{
 			e.printStackTrace();
 		}
 	}
