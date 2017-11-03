@@ -2,6 +2,8 @@ package com.person.primitive;
 
 import org.junit.Test;
 
+import java.math.BigDecimal;
+
 /**
  * Created by xujf on 2017/11/2.
  */
@@ -20,4 +22,35 @@ public class TestDouble {
         System.out.println("a+b=" + c);
         //a+b=111.46000000000001 运行结果如下：
     }
+
+    @Test
+    public void testNewBigdecimalWithDouble()
+    {
+        BigDecimal b = new BigDecimal(88.78);
+        System.out.println("b={}" + b);
+        //88.780000000000001136868377216160297393798828125
+
+        double b1 = 99.78;
+        System.out.println("b1=" + Double.toString(99.78));
+
+    }
+
+    @Test
+    public void testNewBigDecimalWithString()
+    {
+        BigDecimal b = new BigDecimal("88.98");
+        System.out.println("b={}" + b);
+        // b=88.78，注意只有通过string 生成的对象才是精确的。
+    }
+
+    @Test
+    public void testDoubleCompare()
+    {
+        System.out.println( "abc=" + (78.0000000008 - 78.0000000007));
+
+        System.out.println( "def=" + (78.006 - 78.003));
+
+    }
+
+
 }
