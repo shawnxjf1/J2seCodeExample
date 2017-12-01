@@ -87,14 +87,16 @@ public class TestOption {
     @Test
     public void testSafeCallWithOptionalNull1()
     {
-
-
         Competition c = new Competition();
         c.setU(null);
 
         Optional<Competition> com = Optional.ofNullable(c);
         //return com.map(c1 -> c1.getU()).map(u1 -> u1.getAddress()).orElse(() -> throw new NullPointerException("123"));
-        Optional<String> optionalReturn =  com.map(c1 -> c1.getU()).map(u1 -> u1.getAddress()).orElseThrow(()->new NumberFormatException("123"));
+        /**
+         * 有了这个Optional就不用 先判断user是否为null，在判断address是否为空。<br>
+         */
+        Optional<String> optionalReturn =  com.map(c1 -> c1.getU()).map(u1 -> u1.getAddress()).orElseThrow(()->new NullPointerException("123"));
+
         System.out.println("optionalReturn=" + optionalReturn);
     }
 
