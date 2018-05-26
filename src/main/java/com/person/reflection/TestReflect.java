@@ -3,13 +3,15 @@ package com.person.reflection;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.junit.Test;
 
 import java.lang.reflect.Proxy;
 public class TestReflect {
 	
-	Logger log = Logger.getLogger(TestReflect.class);
+	Logger log = LoggerFactory.getLogger(TestReflect.class);
 	
 	/**
 	 * 在函数上定义反射变量T<br>
@@ -99,10 +101,9 @@ public class TestReflect {
 	@Test
 	public void testStringRef()
 	{
-		log.info("123456".hashCode());
-		log.info("123456".hashCode());
-		
-		log.info(("123"+"456").hashCode());
+		log.info("123456's hashcode:{}","123456".hashCode());
+
+		log.info("123+456's hashcode:{}",("123"+"456").hashCode());
 		/**
 		 * 执行结果,地址都是一样的:<br>
 		2016-12-01 19:26:33,802 INFO  main com.person.reflection.TestReflect 1450575459
