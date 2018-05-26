@@ -11,7 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.2.6.RELEASE</spring.version>
-        <slf4j.api.version>1.7.20</slf4j.api.version>
+        <slf4j.api.version>1.7.25</slf4j.api.version>
 
         <mybatis.spring.version>1.2.1</mybatis.spring.version>
         <dbcp.version>1.4</dbcp.version>
@@ -24,20 +24,23 @@
     </properties>
 
     <dependencies>
-        <!-- Elasticsearch -->
 
-        <!-- 使用slf4j : begin -->
+
+
+        <!-- ##################使用slf4j : begin ################-->
+        <!--日志最好放 pom.xml的第一个，maven 从上至下解析pom.xml把jar包加入classpath。
+        比如我把slf4j放在后面jar包elasticsearch就解决了问题 (No SLF4J providers were found的问题，该问题是使用elasticsarch里的slf4j api与provider不匹配导致的)-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.api.version}</version>
         </dependency>
 
-       <!-- <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>log4j-over-slf4j</artifactId>
-            <version>1.7.20</version>
-        </dependency>-->
+        <!--    <dependency>
+                 <groupId>org.slf4j</groupId>
+                 <artifactId>log4j-over-slf4j</artifactId>
+                 <version>1.7.20</version>
+             </dependency>-->
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -45,7 +48,9 @@
             <version>${slf4j.api.version}</version>
         </dependency>
 
-        <!-- 使用日志 end -->
+        <!--############### 使用日志 end ################-->
+        <!-- Elasticsearch -->
+
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
@@ -57,31 +62,6 @@
             <artifactId>javax.servlet-api</artifactId>
         </dependency>
 
-
-
-
-
-
-        <!--
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>jcl-over-slf4j</artifactId>
-        </dependency>
-        -->
-        <!--
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        -->
-
-        <!-- Log end -->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-elasticsearch</artifactId>
@@ -185,7 +165,7 @@
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
-            <version>1.9.1</version>
+            <version>1.9.3</version>
         </dependency>
 
         <!-- add by xujianfeng end -->
@@ -332,6 +312,17 @@
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
             <version>3.4.6</version>
+            <!--为什么要exclude slf412,请看文末 错误1解释。-->
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-log4j12</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>
@@ -346,13 +337,8 @@
             <version>${jodatime}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.20</version>
-        </dependency>
-        <!-- Test -->
 
+        <!-- Test -->
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
@@ -498,3 +484,8 @@
     </profiles>
 
 </project>
+
+<!--
+错误1：Detected both log4j-over-slf4j.jar AND slf4j-log4j12.jar on the class path, preempting StackOverflow
+a).org.apache.activemq引入的slf4j-log4j12.jar与pom文件中的 log4j-over-slf4j.jar循环调用导致的异常，从名字上可以看出slf4j-log4j12是将slf4j的日志桥接到log4j12上， log4j-over-slf4j则是将log4j的日志桥接到slf4j上，因而产生了循环调用。
+-->
