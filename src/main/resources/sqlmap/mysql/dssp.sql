@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS indexMeta;
 
 -- Create a table named 'indexMeta'    attention:-- 与解释的语句必须包含空格，否则在securecrt里执行报错。
 
-CREATE TABLE indexMeta (  
+CREATE TABLE indexMeta (
     indexId int(20) NOT NULL AUTO_INCREMENT,    -- 开始写了long 出错，mysql没有long  int范围（-2147483648 to 2147483647），还有其他数据类型bigint，double ....
     indexName varchar(200) NOT NULL  COMMENT '索引名称',  
 	typeName varchar(200) NOT NULL COMMENT 'type名称',
