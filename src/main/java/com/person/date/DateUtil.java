@@ -508,6 +508,12 @@ public class DateUtil {
 		}
 		return formatTime.getTime() / 1000;
 	}
+	
+	public static String printNowDate()
+	{
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+		return df.format(new Date());// new Date()为获取当前系统时间
+	}
 
 	public static boolean checkTimeRange(Timestamp source, Timestamp target, int range, int unit) {
 		Calendar sourceCal = Calendar.getInstance();

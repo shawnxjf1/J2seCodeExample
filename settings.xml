@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+ <localRepository>D:\maven-repository</localRepository>
+ 
+ <!--
+ 1.maven  拉取jar包的顺序，先走本地仓库，再走私有仓库，然后中央仓库
+ 2.<repostory>标签标识的就是私有仓库。
+ 3.中央仓库不用写是从超级pom里继承的。
+ 4.关于镜像：一般只给central配置mirror，没必要给私有仓库配置<repostory><id>release</id></repository>配置镜像。
+ -->
+ 
+  <pluginGroups>
+  </pluginGroups>
+  <proxies>
+  </proxies>
+ 
+    <servers>
+        <server>
+            <id>fs</id>
+            <username>deployer</username>
+            <password>fxiaoke</password>
+        </server>
+    </servers>
+
+ 
+  <mirrors>
+  
+      
+	<!--  该镜像不可用了
+    <mirror>  
+      <id>maven.net.cn</id>  
+      <name>one of the central mirrors in china</name>  
+      <url>http://maven.net.cn/content/groups/public/</url>  
+      <mirrorOf>central</mirrorOf>   
+    </mirror> 
+	-->
+	<!-- 连不上
+      <mirror>
+          <id>nexus-osc</id>
+          <mirrorOf>central</mirrorOf>
+          <name>Nexus osc</name>
+          <url>http://maven.oschina.net/content/groups/public/</url>
+      </mirror>
+      <mirror>
+          <id>nexus-osc-thirdparty</id>
+          <mirrorOf>thirdparty</mirrorOf>
+          <name>Nexus osc thirdparty</name>
+          <url>http://maven.oschina.net/content/repositories/thirdparty/</url>
+      </mirror>
+	  -->
+	  <mirror>  
+      <id>alimaven</id>  
+      <name>aliyun maven</name>  
+      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>  
+      <mirrorOf>central</mirrorOf>  <!--表示该配置为中央仓库的镜像，任何对于中央仓库的请求都会转至该镜像.-->        
+    </mirror> 
+  </mirrors>
+  
+  <profiles>
+   <profile>
+     <id>sonar</id>
+     <activation>
+         <activeByDefault>true</activeByDefault>
+     </activation>
+     <properties>
+          <sonar.jdbc.url>
+          jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8
+          </sonar.jdbc.url>
+          <sonar.jdbc.driver>com.mysql.jdbc.Driver</sonar.jdbc.driver>
+          <sonar.jdbc.username>root</sonar.jdbc.username>
+          <sonar.jdbc.password>1853</sonar.jdbc.password>
+         <sonar.host.url>http://localhost:9000</sonar.host.url>
+     </properties>
+  </profile>
+        <profile>
+            <id>fxiaoke</id>
+            <repositories>
+                <repository>
+                    <id>release</id>
+                    <name>fxiaoke repo</name>
+                    <layout>default</layout>
+                    <url>http://maven.firstshare.cn/artifactory/libs-release</url>
+                    <releases>
+                      <enabled>true</enabled>
+                      <updatePolicy>always</updatePolicy>
+                      <checksumPolicy>fail</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                      <enabled>true</enabled>
+                      <updatePolicy>always</updatePolicy>
+                      <checksumPolicy>fail</checksumPolicy>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>snapshot</id>
+                    <name>fxiaoke snapshot repo</name>
+                    <layout>default</layout>
+                    <url>http://maven.firstshare.cn/artifactory/libs-snapshot</url>
+                    <releases>
+                      <enabled>true</enabled>
+                      <updatePolicy>always</updatePolicy>
+                      <checksumPolicy>fail</checksumPolicy>
+                    </releases>
+                    <snapshots>
+                      <enabled>true</enabled>
+                      <updatePolicy>always</updatePolicy>
+                      <checksumPolicy>fail</checksumPolicy>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>fxiaoke</id>
+                    <name>fxiaoke repo</name>
+                    <layout>default</layout>
+                    <url>http://maven.firstshare.cn/artifactory/plugins-release/</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+		      <id>jdk-1.8</id>
+
+      <activation>
+		<activeByDefault>true</activeByDefault>  
+        <jdk>1.8</jdk>
+      </activation>
+	  <properties>  
+        <maven.compiler.source>1.8</maven.compiler.source>  
+        <maven.compiler.target>1.8</maven.compiler.target>  
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>  
+      </properties>  
+  </profiles>
+  <activeProfiles>
+    <activeProfile>fxiaoke</activeProfile>
+  </activeProfiles>
+</settings>
