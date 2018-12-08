@@ -61,8 +61,8 @@ public class ClassLoarderTest {
 
 	@Test
 	public void testLoaderStyle() {
-		-- 参考：http://blog.csdn.net/wan368500/article/details/8215668
-		---运行失败 --需要整理
+//		-- 参考：http://blog.csdn.net/wan368500/article/details/8215668
+//		---运行失败 --需要整理
 		try {
 			URL url;
 			url = new URL("./");
