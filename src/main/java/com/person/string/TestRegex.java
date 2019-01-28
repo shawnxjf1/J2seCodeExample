@@ -61,7 +61,7 @@ public class TestRegex {
 	 */
 	@Test
 	public void testGreedMatch() {
-		String sourceStr = "aa<div>test1</div>bb<div>test2</div>cc";
+		String sourceStr = "aa<div>testReflectParameter</div>bb<div>test2</div>cc";
 		String greedPattern = "<div>.*</div>";
 		String noGreedPattern = "<div>.*?</div>";// 匹配优先量词后加上“?”，即变成属于非贪婪模式的量词，也叫做忽略优先量词
 		Pattern greedR = Pattern.compile(greedPattern);
@@ -73,7 +73,7 @@ public class TestRegex {
 			System.out.println(g.group());
 		}
 		/**
-		 * 2016-11-16： notepad++ 里测过，返回结果为：<div>test1</div>bb<div>test2</div>
+		 * 2016-11-16： notepad++ 里测过，返回结果为：<div>testReflectParameter</div>bb<div>test2</div>
 		 */
 
 		Matcher ng = noGreedR.matcher(sourceStr);
@@ -85,22 +85,22 @@ public class TestRegex {
 			}
 		}
 		/**
-		 * 2016-11-16: notepad++里测过，返回两个：<div>test1</div> , <div>test2</div>
+		 * 2016-11-16: notepad++里测过，返回两个：<div>testReflectParameter</div> , <div>test2</div>
 		 */
 		
 		/**
 		 * 2016-11-17输出： 
 		 * 1.FIXME groupCount=0 为什么还有输出呢？ 
-		 * 2.<div>test1</div>bb
-		 * <div>test2</div> groupCount=0 group =<div>test1</div>
+		 * 2.<div>testReflectParameter</div>bb
+		 * <div>test2</div> groupCount=0 group =<div>testReflectParameter</div>
 		 */
 		
 		/**
 		 * 我们应该要看出算法和信息的流向，即我们应该知道动作和运行时，比如如下：<br>
 		 * 调试find() find为调用一次往前查找一次：
 		 * 1).第一次调用ng.find()之前first=0，to=30调用完ng.find()之后first=2,last=18<br>
-		 * 注意：a.sourceStr = "aa<div>test1</div>bb<div>test2</div>cc"; 的aa<div的<索引为2<br>
-		 * b.len("aa<div>test1</div>") = 18，ng.find()匹配了第一个.
+		 * 注意：a.sourceStr = "aa<div>testReflectParameter</div>bb<div>test2</div>cc"; 的aa<div的<索引为2<br>
+		 * b.len("aa<div>testReflectParameter</div>") = 18，ng.find()匹配了第一个.
 		 * 
 		 * 2).第二次调用first=20,last =36 。
 		 */

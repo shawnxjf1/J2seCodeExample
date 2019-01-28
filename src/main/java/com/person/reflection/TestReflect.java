@@ -12,27 +12,10 @@ import java.lang.reflect.Proxy;
 public class TestReflect {
 	
 	Logger log = LoggerFactory.getLogger(TestReflect.class);
-	
+
 	/**
-	 * 在函数上定义反射变量T<br>
-	 * @param map
+	 * 测试invocation handler<br>
 	 */
-	public <T> void  voidWithT(Map<T,T> map)
-	{
-		log.info("map= " + map);
-	}
-	
-	
-	@Test
-	public void test1()
-	{
-		Map<String,String> map1 = new HashMap<String, String>();
-		map1.put("a", "b");
-		map1.put("c", "d");
-		
-		voidWithT(map1);
-	}
-	
 	@Test
 	public void testInvokeHanler()
 	{
