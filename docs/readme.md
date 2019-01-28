@@ -3,7 +3,7 @@
 工程积累的范畴为企业级以spring mybatis 为核心的代码积累
 
 ##怎么记录
-通过package 分隔每个小功能模块
+通过module来拆分各个业务模块
 
 ##规范
 1.所有的test用例，以test开头

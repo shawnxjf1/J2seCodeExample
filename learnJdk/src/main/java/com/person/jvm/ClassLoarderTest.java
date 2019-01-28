@@ -38,7 +38,7 @@ public class ClassLoarderTest {
 	 * java -cp ./lavasoft/classes HelloWorld
 	 * ExtClassLoader和AppClassLoader在JVM启动后，会在JVM中保存一份，并且在程序运行中无法改变其搜索路径。如果想在运行时从其他搜索路径加载类，就要产生新的类加载器。
 	 * 
-	 * @param args
+	 * @param
 	 */
 	@Test
 	public void testClassLoaderLevel() {
@@ -59,29 +59,6 @@ public class ClassLoarderTest {
 
 	}
 
-	@Test
-	public void testLoaderStyle() {
-//		-- 参考：http://blog.csdn.net/wan368500/article/details/8215668
-//		---运行失败 --需要整理
-		try {
-			URL url;
-			url = new URL("./");
-			ClassLoader myloader = new URLClassLoader(new URL[] { url });
-			Class c;
-			c = myloader.loadClass("test.Test3");
-			TestClassLoder t3 = (TestClassLoder) c.newInstance();
-
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (InstantiationException | IllegalAccessException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (MalformedURLException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-
-	}
+	//http://blog.csdn.net/wan368500/article/details/8215668
 
 }

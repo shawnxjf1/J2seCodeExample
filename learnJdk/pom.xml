@@ -2,22 +2,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <groupId>com.shawn</groupId>
-    <artifactId>java-code-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>java-code-parent</name>
-    <description>parent project for company</description>
+    <parent>
+        <artifactId>java-code-parent</artifactId>
+        <groupId>com.shawn</groupId>
+        <version>1.0.0-SNAPSHOT</version><!--FIXME 是否可以使用父类的properties-->
+    </parent>
 
-	<modelVersion>4.0.0</modelVersion><!--不能去掉不然会报错的-->
-
-	<modules>
-        <module>arithmetic</module>
-        <module>learnJdk</module>
-    </modules>
+    <artifactId>leanJdk</artifactId>
+    <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
 
 	<properties>
-        <parent.version>1.0.0-SNAPSHOT</parent.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.version>3.2.9.RELEASE</spring.version>
 		<slf4j.api.version>1.7.21</slf4j.api.version>
@@ -230,12 +225,6 @@
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 		</dependency>
-
-		<dependency>
-			<groupId>cn.hutool</groupId>
-			<artifactId>hutool-all</artifactId>
-			<version>4.4.2</version>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -248,7 +237,7 @@
 				<configuration>
 					<fork>true</fork>
 					<source>1.8</source>
-					<target>1.8</target>
+					<target>1.8</target><!--使用的是这里写的版本进行编译的-->
 				</configuration>
 			</plugin>
 
@@ -266,27 +255,13 @@
 							<outputDirectory>${project.build.directory}/lib/</outputDirectory>
 							<overWriteReleases>false</overWriteReleases>
 							<overWriteSnapshots>false</overWriteSnapshots>
+							<overWriteIfNever>true</overWriteIfNever>
 						</configuration>
 					</execution>
 				</executions>
 			</plugin>
 		</plugins>
 	</build>
-
-	<repositories>
-		<repository>
-			<id>alimaven</id>
-			<name>aliyun maven</name>
-			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-
 </project>
 <!--
 错误1：Detected both log4j-over-slf4j.jar AND slf4j-log4j12.jar on the class path, preempting StackOverflow
