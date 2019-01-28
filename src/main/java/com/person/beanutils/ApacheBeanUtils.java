@@ -4,6 +4,7 @@ import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.ConversionException;
 import org.apache.commons.beanutils.ConvertUtils;
 import org.apache.commons.beanutils.Converter;
+import org.apache.commons.beanutils.converters.AbstractConverter;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * 2018年05月26日 用例测试OK<br>
+ */
 public class ApacheBeanUtils {
     Logger log = LoggerFactory.getLogger(ApacheBeanUtils.class);
 
@@ -211,6 +215,44 @@ public class ApacheBeanUtils {
             }
         }
     }
+
+
+
+    /**
+     * 什么时候使用该convert？  BeanUtilsBean.convert(final Object value,final Class(?) type){
+     *    Convert convert = getConvertUtils().lookup(type)//根据Dest 属性类型来查找convert在此情景下是查找Date auditTime来找convert。
+     *     convert.convert(type,value).//所以遇到其他类型转Date类型都会使用该Convert，所以你重写时候请慎重。
+     * }
+     */
+//    class StringToDateConverter1 extends AbstractConverter{
+//        @Override
+//        protected <T> T convertToType(Class<T> aClass, Object o) throws Throwable {
+//            log.info("use convert,for o:{}",o);
+//            if (o == null)
+//            {
+//                return null;
+//            }
+//
+//            if (!(o instanceof  String)){
+//                throw new ConversionException("只支持字符串转换");
+//            }
+//
+//            String str = (String) o;
+//            if (str.trim().equals(""))
+//            {
+//                return  null;
+//            }
+//
+//            SimpleDateFormat sd = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//
+//            try {
+//                return sd.parse(str);//必须要强制转化为T
+//            }catch(ParseException e)
+//            {
+//                throw new RuntimeException(e);
+//            }
+//        }
+//    }
 
     public class Source1{
         private Date nowDate;

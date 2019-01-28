@@ -16,7 +16,6 @@ import org.springframework.stereotype.Service;
 public class ThreadKillService implements InitializingBean, DisposableBean {
 
 	Logger logger = LoggerFactory.getLogger(ThreadKillService.class);
-
 	/**
 	 * 单位为分钟
 	 */

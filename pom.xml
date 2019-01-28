@@ -20,6 +20,7 @@
         <org.springframework.version>org.springframework.version</org.springframework.version>
 
         <elasticsearch>2.3.3</elasticsearch>
+        <jedis.version>2.9.0</jedis.version>
         <jodatime>2.9.4</jodatime>
     </properties>
 
@@ -258,6 +259,12 @@
             <version>${mysql.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.4.3</version>
+        </dependency>
+
         <!--
         <dependency>
             <groupId>com.oracle</groupId>
@@ -337,7 +344,11 @@
             <version>${jodatime}</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>${jedis.version}</version>
+        </dependency>
         <!-- Test -->
         <dependency>
             <groupId>io.netty</groupId>

@@ -4,5 +4,8 @@
 3.导入maven工程，project structure（project等设置sdk）。
 4.pom.xml 引入apche beanutils 1.9.3
 
+## 2019-01-28
+1.引入hutool-all 可以使用hutool 的log。
+2.代码mvn 编译通过
 
 ## TODO

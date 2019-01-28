@@ -89,4 +89,73 @@ public class TestMock {
         }
         return object;
     }
+
+
+    /**
+     * 2018年06月01日测试OK<br>
+     * @param c
+     * @param <T>
+     * @return
+     */
+    public static <T> T generateMockData(Class<T> c) {
+        T object = null;
+        try {
+            object = (c).newInstance();
+        } catch (Exception e) {
+            log.error("exception occure,", e);
+        }
+        Method[] methods = ((Class) c).getMethods();
+        for (Method method : methods) {
+            if (method.getName().startsWith("set")) {
+                log.debug("method.getParameterTypes()[]:{},methodName:{}", method.getParameterTypes()[0].getName(), method.getName());
+
+                //
+                if (method.getParameterTypes()[0].getName().equals(Integer.class.getName())) {
+                    try {
+                        method.invoke(object, 12);
+                    } catch (Exception e) {
+                        log.debug("exception:{}", e);
+                    }
+                }
+
+                if (method.getParameterTypes()[0].getName().equals(String.class.getName())) {
+                    try {
+                        method.invoke(object, "aa");
+                    } catch (Exception e) {
+                        log.debug("exception:{}", e);
+                    }
+                }
+
+                //getName:  java.lang.String  BigInteger.class.getName():java.lang.BigInteger
+                if (method.getParameterTypes()[0].getName().equals(BigInteger.class.getName())) {
+                    try {
+                        //method.invoke(workOrderCommentDto, 12345678);
+                        method.invoke(object, new BigInteger("12345678"));
+                    } catch (Exception e) {
+                        log.debug("exception:method.getName:{}", method.getName(), e);
+                    }
+                }
+
+                if (method.getParameterTypes()[0].getName().equals(List.class.getName())) {
+
+                    Type[] entityClass = ((ParameterizedType) method.getGenericParameterTypes()[0]).getActualTypeArguments();
+                    Type rawType = ((ParameterizedType) method.getGenericParameterTypes()[0]).getRawType();
+
+                    log.info("generateMockData===entityClass:{},rawType:{}", entityClass, rawType);
+
+
+                    //返回的是 method.getGenericParameterTypes()[0].getTypeName()为java.util.List<com.lumi.retail.web.dto.provideroutputorder.OutputOrderProductDto>
+                    //method.getGenericParameterTypes()[0].equals(OutputOrderProductDto.class.getName());
+
+                    try {
+                        method.invoke(object, Lists.newArrayList(generateMockData(entityClass[0])));
+                    } catch (Exception e) {
+                        log.debug("exception:{}", e);
+                    }
+                }
+
+            }
+        }
+        return object;
+    }
 }
