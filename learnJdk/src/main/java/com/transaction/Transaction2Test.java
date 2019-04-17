@@ -5,14 +5,13 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * 测试事务的传播机制<br>
+ * 测试事务的隔离级别机制<br>
  * //FIXME 待完善
  * 
  * @author 58pc
  * @date 2019/4/15
  */
-public class TransactionTest {
-
+public class Transaction2Test {
     /////////////// ************case 1**************//////////////////////////////
     @Test
     @Transactional(propagation = Propagation.MANDATORY)
