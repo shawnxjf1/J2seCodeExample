@@ -14,6 +14,7 @@
 	<modules>
         <module>arithmetic</module>
         <module>learnJdk</module>
+		<!--<module>enjoySpring</module>-->
     </modules>
 
 	<properties>
