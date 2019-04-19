@@ -20,6 +20,7 @@ _netrc
 
 ## Ignore project files created by IntelliJ IDEA
 # *.iml  ，比如我把src/main/resource  执行动作 unmark directory as resource root 那么 .idea/${modulename}/{modulename}.iml就会有变动
+## 对于自己一个人的项目最好需要把 .idea .iml 随git提交比较好
 *.ipr
 *.iws
 ## .idea
