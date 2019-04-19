@@ -33,9 +33,9 @@
       <sourceFolder url="file://$MODULE_DIR$/tool/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/tool/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tool/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/kaleidoscope/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/kaleidoscope/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/kaleidoscope/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/learnDependentBySpringBoot/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/learnDependentBySpringBoot/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/learnDependentBySpringBoot/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="library" name="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" level="application" />

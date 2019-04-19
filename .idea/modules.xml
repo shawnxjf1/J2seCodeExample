@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/arithmetic/arithmetic.iml" filepath="$PROJECT_DIR$/arithmetic/arithmetic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kaleidoscope/kaleidoscope.iml" filepath="$PROJECT_DIR$/kaleidoscope/kaleidoscope.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnJdk/leanJdk.iml" filepath="$PROJECT_DIR$/learnJdk/leanJdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnDependentBySpringBoot/learnDependentBySpringBoot.iml" filepath="$PROJECT_DIR$/learnDependentBySpringBoot/learnDependentBySpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/rmi.iml" filepath="$PROJECT_DIR$/rmi.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/tool/tool.iml" filepath="$PROJECT_DIR$/tool/tool.iml" />
