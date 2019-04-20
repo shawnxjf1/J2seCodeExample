@@ -2,184 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26546ff4-2b26-4610-9aa2-5c4efe91cdd7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TAlgorithmModelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TAlgorithmModelProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TCombController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TCombShelfController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TDeviceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TDeviceExtEquipmentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TDeviceFloorModelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TItemTypeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TOrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TOrderDetailController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TScenePackageControllerBusiness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TScenePackageDetailControllerBusiness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TScenePackageLayoutControllerBusiness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/controller/TStoreController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TAlgorithmModelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TAlgorithmModelProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TCombMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TCombShelfMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TDeviceExtEquipmentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TDeviceFloorModelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TDeviceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TItemMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TItemTypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TOrderDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TOrderMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TScenePackageDetailMapperBusiness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TScenePackageLayoutMapperBusiness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TScenePackageMapperBusiness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dao/TStoreMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dto/DeviceDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/dto/out/ItemDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TAlgorithmModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TAlgorithmModelProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TComb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TCombShelf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TDevice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TDeviceExtEquipment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TDeviceFloorModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TItemType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TOrderDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TScenePackage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TScenePackageDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TScenePackageLayout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/model/TStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TAlgorithmModelProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TAlgorithmModelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TCombService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TCombShelfService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TDeviceExtEquipmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TDeviceFloorModelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TDeviceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TItemTypeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TOrderDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TOrderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TScenePackageDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TScenePackageLayoutService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TScenePackageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/TStoreService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TAlgorithmModelProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TAlgorithmModelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TCombServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TCombShelfServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TDeviceExtEquipmentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TDeviceFloorModelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TDeviceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TItemTypeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TOrderDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TOrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TScenePackageDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TScenePackageLayoutServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TScenePackageServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/business/service/impl/TStoreServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/config/IvmConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/config/KaptchaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/config/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/config/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/config/WebMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/datasources/DBTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/datasources/DataSourceNames.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/datasources/DbContextHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/datasources/DynamicDataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/datasources/annotation/DataSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/datasources/aspect/DataSourceAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/datasources/aspect/DataSourceSwitchAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/exception/KaleidoScopeBusinessErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/SceneOptimizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/DeviceFloor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/ImproveItemResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/ImproveRateResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/ItemOptimizeTactics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/ItemOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/ItemResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/ItemSalesData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/Locator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/LocatorSales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/OptimizeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/RateResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/SalesData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/algorithm/bean/Scene.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/controller/TDeviceScenePackageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/controller/TDeviceScenePackageLayoutController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/controller/TScenePackageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/controller/TScenePackageDetailController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/controller/TScenePackageDetailLayoutController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dao/TDeviceScenePackageLayoutMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dao/TDeviceScenePackageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dao/TScenePackageDetailLayoutMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dao/TScenePackageDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dao/TScenePackageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/DevicePackageQueryDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/DeviceScenePackageAddDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/DeviceScenePackageEditDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/DeviceSceneQueryPageDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/PageArg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/ScenePackageAddDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/ScenePackageDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/ScenePackageEditDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/in/ScenePackageQueryPageDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/out/AllAreaTypeDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/out/AreaTypeTwoGrade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/out/BaseScenePackageDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/out/BaseScenePackageListDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/out/DevicePackageAndLayoutDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/out/DeviceScenePackageDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/dto/out/PageDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/model/TDeviceScenePackage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/model/TDeviceScenePackageLayout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/model/TScenePackage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/model/TScenePackageDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/model/TScenePackageDetailLayout.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/KaleidoscopeDataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/TDeviceScenePackageLayoutService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/TDeviceScenePackageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/TScenePackageDetailLayoutService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/TScenePackageDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/TScenePackageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/impl/TDeviceScenePackageLayoutServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/impl/TDeviceScenePackageServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/impl/TScenePackageDetailLayoutServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/impl/TScenePackageDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/kaleido/service/impl/TScenePackageServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/util/DeviceUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/Mybatis-Plus.properties" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/Mybatis-Plus.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TAlgorithmModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TAlgorithmModelProduct.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TComb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TCombShelf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TDevice.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TDeviceExtEquipment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TDeviceFloorModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TItem.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TItemType.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TOrder.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TOrderDetail.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TScenePackage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TScenePackageDetail.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TScenePackageLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/business/TStore.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/kaleido/TDeviceScenePackage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/kaleido/TDeviceScenePackageLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/kaleido/TScenePackage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/kaleido/TScenePackageDetail.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/mapper/kaleido/TScenePackageDetailLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/MpGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/MpGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/kaleido/service/CommonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/kaleido/service/SceneOptimizerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/kaleido/service/SceneServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/learnJdk/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -202,28 +25,28 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
+            <state relative-caret-position="969">
               <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="2489">
               <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/MpGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4351">
+            <state relative-caret-position="152">
               <caret line="15" column="36" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
@@ -233,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -246,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/KaleidoscopeApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="190">
               <caret line="18" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -276,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="304">
               <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
@@ -284,12 +107,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arithmetic/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="665">
               <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -352,18 +175,13 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="leanJdk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="leanJdk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -374,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,64 +210,10 @@
               <item name="J2seCodeExample" type="462c0819:PsiDirectoryNode" />
               <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J2seCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J2seCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J2seCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J2seCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J2seCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J2seCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="J2seCodeExample" type="462c0819:PsiDirectoryNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yxzn" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -457,7 +222,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555671439417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555725909208" />
     <property name="last_opened_file_path" value="D:/100-workspace/norm/khcp-eclipse-codestyle.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -610,7 +375,7 @@
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1382" height="744" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -626,7 +391,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39344263" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.62459016" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="10" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" />
@@ -816,72 +581,70 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learnJdk/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4408">
           <caret line="232" selection-start-line="232" selection-end-line="232" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tool/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/main/java/com/yxzn/kaleido/controller/TScenePackageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/main/java/com/yxzn/kaleido/controller/TScenePackageController.java" />
+    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/main/java/com/yxzn/business/model/TScenePackage.java" />
+    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/test/java/com/yxzn/kaleido/service/SceneOptimizerTest.java" />
+    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/test/java/com/yxzn/kaleido/service/CommonTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
+        <state relative-caret-position="969">
           <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/main/java/com/yxzn/business/model/TScenePackage.java">
+    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2489">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/MpGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/KaleidoscopeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/test/java/com/yxzn/kaleido/service/SceneOptimizerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/test/java/com/yxzn/kaleido/service/CommonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -899,45 +662,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arithmetic/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/docs/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="304">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arithmetic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
           <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/KaleidoscopeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="131" column="20" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/MpGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4351">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
