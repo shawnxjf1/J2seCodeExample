@@ -23,6 +23,5 @@ _netrc
 ## 对于自己一个人的项目最好需要把 .idea .iml 随git提交比较好
 *.ipr
 *.iws
-## .idea
 
 _netrc

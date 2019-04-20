@@ -15,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="arithmetic" target="1.8" />
+      <module name="kaleidoscope" target="1.8" />
       <module name="leanJdk" target="1.8" />
       <module name="learnDependentBySpringBoot" target="1.8" />
       <module name="rmi" target="1.8" />

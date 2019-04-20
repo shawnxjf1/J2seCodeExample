@@ -16,6 +16,7 @@
         <module>learnJdk</module>
         <module>spring</module>
         <module>tool</module>
+        <module>learnDependentBySpringBoot</module>
         <!--<module>enjoySpring</module>-->
     </modules>
 
