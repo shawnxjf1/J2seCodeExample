@@ -1,0 +1,64 @@
+spring:
+  datasource:
+    druid:
+      # 数据库 1
+      db1:
+        url: jdbc:mysql://118.126.103.152:9991/ivm_kaleidoscope_dev?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+        username: dbmgr
+        password: duan5lzh
+        driver-class-name: com.mysql.jdbc.Driver
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
+      # 数据库 2
+      db2:
+        url: jdbc:mysql://118.126.103.152:9991/ivm_mall_dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false
+        username: dbmgr
+        password: duan5lzh
+        driver-class-name: com.mysql.jdbc.Driver
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
+
+#spring:
+#    datasource:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driverClassName: com.mysql.jdbc.Driver
+#        druid:
+#            first:
+#                url: jdbc:mysql://118.126.103.152:9991/ivm_kaleidoscope_dev?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+#                username: dbmgr
+#                password: duan5lzh
+#            second:
+#                url: jdbc:mysql://118.126.103.152:9991/ivm_kaleidoscope_dev?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+#                username: dbmgr
+#                password: duan5lzh
+#            initial-size: 10
+#            max-active: 100
+#            min-idle: 10
+#            max-wait: 60000
+#            pool-prepared-statements: true
+#            max-pool-prepared-statement-per-connection-size: 20
+#            time-between-eviction-runs-millis: 60000
+#            min-evictable-idle-time-millis: 300000
+#            #validation-query: SELECT 1 FROM DUAL
+#            test-while-idle: true
+#            test-on-borrow: false
+#            test-on-return: false
+#            stat-view-servlet:
+#                enabled: true
+#                url-pattern: /druid/*
+#                #login-username: admin
+#                #login-password: admin
+#            filter:
+#                stat:
+#                    log-slow-sql: true
+#                    slow-sql-millis: 1000
+#                    merge-sql: false
+#                wall:
+#                    config:
+#                        multi-statement-allow: true
+
+ivm:
+  config:
+    businessApiUrl: "https://dev.api.iyoyobuy.com/"
