@@ -7,6 +7,8 @@ package com.person;
 import java.util.Date;
 import java.util.Locale;
 
+import org.apache.commons.lang3.time.DateFormatUtils;
+import org.apache.commons.lang3.time.FastDateFormat;
 import org.junit.Test;
 
 /**
@@ -36,6 +38,12 @@ public class TestFastDateFormat {
             FastDateFormat.getDateTimeInstance(FastDateFormat.FULL, FastDateFormat.FULL, Locale.CANADA);
         System.out.println(df.format(new Date()));
 
+    }
+
+    @Test
+    public void testFormatDate() {
+        String formatedDate = DateFormatUtils.ISO_8601_EXTENDED_DATETIME_FORMAT.format(new Date());
+        System.out.println("formatedDate=" + formatedDate);
     }
 
     public static void showDate() {

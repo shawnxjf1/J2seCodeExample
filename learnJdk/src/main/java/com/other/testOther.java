@@ -7,6 +7,7 @@ package com.other;
  */
 
 import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.net.URLEncoder;
 
 import org.junit.Test;
@@ -23,8 +24,18 @@ public class testOther {
         }
     }
 
-    public void test() {
+    @Test
+    public void testUrlDecode() {
+        String decodeUrl = "http%3a%2f%2fselection.djtest.cn%2fselection%2flist";
+        try {
+            String fullUrl1 = URLDecoder.decode(decodeUrl, "UTF-8");
 
+            System.out.println("fullUrl1==" + fullUrl1);
+            // --> http://selection.djtest.cn/selection/list
+
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -33,23 +44,14 @@ public class testOther {
      */
     @Test
     public void testUriEncode() {
-        String url =
-            "https%3A%2F%2Fwww.ceshi113.com%2Fopen%2Fsail%2Findex.html%3F_hash%3D%2Forder%2Fdetail%26orderId%3De6e26f700d63444393faa81900a4b5cf%26ea%3D55732";
-
-        String fullUrl =
-            "https://www.ceshi113.com/fs-er-biz/er/auth/connect?authType=2&context=55732&resourceUrl=https%3A%2F%2Fwww.ceshi113.com%2Fopen%2Fsail%2Findex.html%3F_hash%3D%2Forder%2Fdetail%26orderId%3De6e26f700d63444393faa81900a4b5cf%26ea%3D55732";
-
+        String fullUrl = "http://babywatcher.djtest.cn/h5/user/write-daily";
         try {
-            String url1 = URLEncoder.encode(url, "UTF-8");
-
             String fullUrl1 = URLEncoder.encode(fullUrl, "UTF-8");
-            System.out.println("url1111==" + url1);
 
             System.out.println("fullUrl1==" + fullUrl1);
 
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-
     }
 }
