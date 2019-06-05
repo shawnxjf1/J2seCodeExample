@@ -260,7 +260,6 @@ a).org.apache.activemq引入的slf4j-log4j12.jar与pom文件中的 log4j-over-sl
                             <outputDirectory>${project.build.directory}/lib/</outputDirectory>
                             <overWriteReleases>false</overWriteReleases>
                             <overWriteSnapshots>false</overWriteSnapshots>
-                            <overWriteIfNever>true</overWriteIfNever>
                         </configuration>
                     </execution>
                 </executions>

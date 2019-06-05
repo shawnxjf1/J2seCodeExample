@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26546ff4-2b26-4610-9aa2-5c4efe91cdd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ibatis_ibatis_core_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserServiceNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/SpringEventDemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_1_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnApache/resources/ifelse.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnApache/src/main/java/com/com/shawn/VelocityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnApache/src/test/java/com/person/TestVelocity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnApache/src/test/java/com/person/ifelse.vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnApache/src/test/java/com/person/TestFastDateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/learnApache/src/test/java/com/person/TestFastDateFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/learnDependentBySpringBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/learnDependentBySpringBoot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/yxzn/KaleidoscopeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/LearnDependentBySpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/yxzn/MpGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/MpGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnApache/learnApache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learnApache/learnApache.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnApache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learnApache/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnJdk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learnJdk/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/src/test/java/com/person/EnableCustomerAccountJobTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/src/test/java/com/person/TestSpring.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/learnJdk/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,86 +30,35 @@
     <SUITE FILE_PATH="coverage/J2seCodeExample$TransactionTest.ic" NAME="TransactionTest Coverage Results" MODIFIED="1555482426045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.transaction.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/J2seCodeExample$TestVelocity_testVelocityOutput.ic" NAME="TestVelocity.testVelocityOutput Coverage Results" MODIFIED="1559735591987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.person.*</FILTER>
+    </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/LearnDependentBySpringBootApplication.java">
+        <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="13" column="61" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="99">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnApache/src/main/java/com/com/shawn/VelocityUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/SpringEventDemoTest.java">
+        <entry file="file://$PROJECT_DIR$/learnApache/src/test/java/com/person/TestVelocity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="50" column="90" selection-start-line="50" selection-start-column="90" selection-end-line="50" selection-end-column="90" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tool/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserServiceNew.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+            <state relative-caret-position="174">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,11 +67,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/app/Velocity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1087">
+              <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/runtime/resource/ResourceManagerImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnApache/src/test/java/com/person/ifelse.vm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnApache/resources/ifelse.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="52" selection-start-column="49" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnApache/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="258">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnApache/src/test/java/com/person/TestNull.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-220">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -141,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
+            <state relative-caret-position="266">
               <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -178,6 +157,9 @@
       <find>cos</find>
       <find>mybatis</find>
       <find>mybatis.version</find>
+      <find>UrlEn</find>
+      <find>DaojiaDate</find>
+      <find>decode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,20 +191,22 @@
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/learnJdk/src/test/java/com/person/TestLong.java" />
         <option value="$PROJECT_DIR$/learnJdk/src/test/java/com/person/TestNull.java" />
-        <option value="$PROJECT_DIR$/learnApache/pom.xml" />
         <option value="$PROJECT_DIR$/learnApache/src/test/java/com/person/TestFastDateFormat.java" />
-        <option value="$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/KaleidoscopeApplication.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/learnDependentBySpringBootApplication.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/LearnDependentBySpringBootApplication.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserService.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserServiceNew.java" />
-        <option value="$PROJECT_DIR$/learnJdk/pom.xml" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/EmailService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/SpringEventDemoTest.java" />
+        <option value="$PROJECT_DIR$/learnJdk/pom.xml" />
+        <option value="$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java" />
+        <option value="$PROJECT_DIR$/learnApache/pom.xml" />
+        <option value="$PROJECT_DIR$/learnApache/resources/test/ifelse.vm" />
+        <option value="$PROJECT_DIR$/learnApache/src/test/java/com/person/TestVelocity.java" />
       </list>
     </option>
   </component>
@@ -249,38 +233,89 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnDependentBySpringBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shawn" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnApache" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +332,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +339,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556283919816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559736708806" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -313,16 +347,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\500-opensource-java\J2seCodeExample" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\500-opensource-java\J2seCodeExample\learnApache\resources" />
+      <recent name="D:\500-opensource-java\J2seCodeExample\learnApache" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shawn.springEventDemo" />
       <recent name="com.person" />
       <recent name="com.transaction" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\500-opensource-java\J2seCodeExample\learnApache" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\500-opensource-java\J2seCodeExample\learnApache\src\test\java\com\person" />
+      <recent name="D:\500-opensource-java\J2seCodeExample" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,7 +373,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringEventDemoTest.testUserRegister">
+  <component name="RunManager" selected="JUnit.TestVelocity.testVelocityOutput">
     <configuration name="SpringEventDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learnDependentBySpringBoot" />
       <extension name="coverage">
@@ -369,7 +405,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFastDateFormat.testFormatDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVelocity.testVelocityOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learnApache" />
       <extension name="coverage">
         <pattern>
@@ -378,24 +414,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.person" />
-      <option name="MAIN_CLASS_NAME" value="com.person.TestFastDateFormat" />
-      <option name="METHOD_NAME" value="testFormatDate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testOther.testUriEncode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leanJdk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.other" />
-      <option name="MAIN_CLASS_NAME" value="com.other.testOther" />
-      <option name="METHOD_NAME" value="testUriEncode" />
+      <option name="MAIN_CLASS_NAME" value="com.person.TestVelocity" />
+      <option name="METHOD_NAME" value="testVelocityOutput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -417,13 +437,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testOther.testUrlDecode2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leanJdk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.other" />
+      <option name="MAIN_CLASS_NAME" value="com.other.testOther" />
+      <option name="METHOD_NAME" value="testUrlDecode2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestVelocity.testVelocityOutput" />
+        <item itemvalue="JUnit.testOther.testUrlDecode2" />
+        <item itemvalue="JUnit.testOther.testUrlDecode" />
         <item itemvalue="JUnit.SpringEventDemoTest.testUserRegister" />
         <item itemvalue="JUnit.SpringEventDemoTest" />
-        <item itemvalue="JUnit.testOther.testUriEncode" />
-        <item itemvalue="JUnit.testOther.testUrlDecode" />
-        <item itemvalue="JUnit.TestFastDateFormat.testFormatDate" />
       </list>
     </recent_temporary>
   </component>
@@ -441,42 +477,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringEventDemoTest - 2019.04.26 at 20h 33m 35s.xml">
-      <configuration name="SpringEventDemoTest" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 19h 48m 36s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest - 2019.04.26 at 20h 37m 40s.xml">
-      <configuration name="SpringEventDemoTest" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 19h 49m 58s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest_testUserRegister - 2019.04.26 at 20h 40m 05s.xml">
-      <configuration name="SpringEventDemoTest.testUserRegister" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 19h 52m 05s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest_testUserRegister - 2019.04.26 at 20h 44m 03s.xml">
-      <configuration name="SpringEventDemoTest.testUserRegister" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 19h 53m 18s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest_testUserRegister - 2019.04.26 at 20h 49m 04s.xml">
-      <configuration name="SpringEventDemoTest.testUserRegister" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 19h 57m 05s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest_testUserRegister - 2019.04.26 at 20h 51m 58s.xml">
-      <configuration name="SpringEventDemoTest.testUserRegister" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 19h 58m 08s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest_testUserRegister - 2019.04.26 at 20h 53m 12s.xml">
-      <configuration name="SpringEventDemoTest.testUserRegister" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 19h 58m 38s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest_testUserRegister - 2019.04.26 at 20h 56m 43s.xml">
-      <configuration name="SpringEventDemoTest.testUserRegister" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 20h 05m 17s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest_testUserRegister - 2019.04.26 at 21h 01m 20s.xml">
-      <configuration name="SpringEventDemoTest.testUserRegister" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 20h 06m 01s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringEventDemoTest_testUserRegister - 2019.04.26 at 21h 03m 44s.xml">
-      <configuration name="SpringEventDemoTest.testUserRegister" configurationId="JUnit" />
+    <history-entry file="TestVelocity_testVelocityOutput - 2019.06.05 at 20h 08m 54s.xml">
+      <configuration name="TestVelocity.testVelocityOutput" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -486,26 +522,26 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.6301059" weight="0.4622951" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.897882" visible="true" weight="0.33114755" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.892587" visible="true" weight="0.26109216" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.75340396" weight="0.38054606" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.19180328" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.6770045" weight="0.29836065" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.102118" side_tool="true" visible="true" weight="0.33114755" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.8033283" weight="0.34982935" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.10741301" side_tool="true" visible="true" weight="0.26109216" />
       <window_info anchor="bottom" id="JRebel Console" order="10" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49848714" weight="0.40655738" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4977307" weight="0.40614334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49788135" visible="true" weight="0.15355521" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.4965358" visible="true" weight="0.10438729" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.50211865" side_tool="true" visible="true" weight="0.16641453" />
+      <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5034642" side_tool="true" visible="true" weight="0.10438729" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -514,54 +550,25 @@
       <path value="$PROJECT_DIR$/yxzn-service-kaleidoscope-generate" />
     </ignored-roots>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/runtime/resource/ResourceManagerImpl.class</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/runtime/resource/ResourceManagerImpl.class</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/person/staticInnerClass/TestMyStaticClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/main/java/com/yxzn/kaleido/controller/TScenePackageController.java" />
-    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/main/java/com/yxzn/business/model/TScenePackage.java" />
-    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/test/java/com/yxzn/kaleido/service/SceneOptimizerTest.java" />
-    <entry file="file://$PROJECT_DIR$/kaleidoscope/src/test/java/com/yxzn/kaleido/service/CommonTest.java" />
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/ivm-marketing.iml" />
     <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/.springBeans" />
     <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/LICENSE" />
@@ -730,21 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnApache/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/MpGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -762,34 +754,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnJdk/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="262" column="29" selection-start-line="262" selection-start-column="29" selection-end-line="262" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/src/test/java/com/person/TestSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/src/test/java/com/person/EnableCustomerAccountJobTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/src/test/java/com/person/TestSpring.java" />
+    <entry file="file://$PROJECT_DIR$/tool/src/test/java/com/person/EnableCustomerAccountJobTest.java" />
     <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/LearnDependentBySpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="114">
           <caret line="13" column="61" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -797,26 +766,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/EmailService.java">
+    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/SpringEventDemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="513">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tool/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/person/multiThread/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/net/URLDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="e#0#7250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJdk/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4674">
+          <caret line="246" column="21" selection-start-line="246" selection-start-column="21" selection-end-line="246" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4826">
+          <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="304">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserServiceNew.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="627">
           <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -824,53 +847,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="2983">
           <caret line="157" selection-start-line="157" selection-end-line="157" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/SpringEventDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="50" column="90" selection-start-line="50" selection-start-column="90" selection-end-line="50" selection-end-column="90" />
+        <state relative-caret-position="266">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnApache/src/test/java/com/person/TestNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnApache/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnApache/src/main/java/com/com/shawn/VelocityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnApache/resources/ifelse.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="49" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnApache/src/test/java/com/person/ifelse.vm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/runtime/resource/ResourceManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/app/Velocity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1087">
+          <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnApache/src/test/java/com/person/TestVelocity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

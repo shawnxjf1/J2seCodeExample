@@ -1,0 +1,3 @@
+#if($content.contains("蛋花便")||$content.contains("绿色便")||$content.contains("其他便"))
+true
+#end
