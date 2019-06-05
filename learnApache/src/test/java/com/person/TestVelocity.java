@@ -12,7 +12,7 @@ import java.util.Properties;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
-import org.apache.velocity.app.Velocity;
+import org.apache.velocity.app.VelocityEngine;
 import org.junit.Test;
 
 /**
@@ -41,22 +41,25 @@ public class TestVelocity {
      */
     @Test
     public void testVelocityOutput() {
-        Template template = Velocity.getTemplate("ifelse.vm");
+        VelocityEngine velocity = new VelocityEngine();
+
         Properties p = new Properties();
-        p.setProperty("resource.loader", "class");
-        // p.setProperty(VelocityEngine.FILE_RESOURCE_LOADER_PATH,
-        // "D:\\500-opensource-java\\J2seCodeExample\\learnApache\\src\\test\\java\\com\\person\\");
+        p.setProperty(VelocityEngine.FILE_RESOURCE_LOADER_PATH,
+            "D:\\500-opensource-java\\J2seCodeExample\\learnApache\\src\\test\\java\\com\\person\\");
+        velocity.init(p);
+
+        Template template = velocity.getTemplate("ifelse.vm");
+
         Map<String, Object> data = new HashMap<String, Object>();
-        data.put("content", "绿色便");
+        data.put("content", "绿色便1122");
         VelocityContext context = new VelocityContext(data);
         StringWriter writer = new StringWriter();
         template.merge(context, writer);
         String[] result = StringUtils.split(writer.toString(), ",");
-        System.out.println("result=" + result);
+        System.out.println("result=" + result.toString());
         /****
-         * FIXME @shawn 报错：org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'ifelse.vm'，
-         * 找不到 ifelse.vm
+         * 1.2019-6-5不报错但是获取通过FileResourceLoader可以获取XXX.vm <br>
+         * 2.FIXME writer.toString()结果没有执行出来<br>
          */
     }
-
 }

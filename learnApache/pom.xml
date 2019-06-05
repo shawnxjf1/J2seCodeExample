@@ -262,7 +262,8 @@ a).org.apache.activemq引入的slf4j-log4j12.jar与pom文件中的 log4j-over-sl
 -->
 
     <build>
-        <finalName>dssp</finalName>
+        <!--<finalName>XXX<finalName> 为最终打包到target目录的XXX.jar-->
+        <finalName>learnApache</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
