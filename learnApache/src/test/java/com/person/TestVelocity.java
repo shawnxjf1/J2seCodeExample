@@ -60,6 +60,7 @@ public class TestVelocity {
         /****
          * 1.2019-6-5不报错但是获取通过FileResourceLoader可以获取XXX.vm <br>
          * 2.FIXME writer.toString()结果没有执行出来<br>
+         * 3.velocity 换成相对路径<br>
          */
     }
 }
