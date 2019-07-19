@@ -6,8 +6,10 @@ import com.google.common.util.concurrent.RateLimiter;
 
 import java.util.concurrent.Executors;
 
+/**
+ * 参考博客:https://segmentfault.com/a/1190000015967922 <br>
+ */
 public class RateLimiterTest {
-
         public static void main(String[] args) {
             ListeningExecutorService executorService = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(100));
             // 指定每秒放1个令牌
@@ -30,5 +32,4 @@ public class RateLimiterTest {
                 executorService.submit(new Task("获取令牌成功，获取耗：" + acquire + " 第 " + i + " 个任务执行"));
             }
         }
-
 }

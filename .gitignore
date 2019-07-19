@@ -25,3 +25,5 @@ _netrc
 *.iws
 
 _netrc
+
+## 如果想把工程的改动同步到其他地方是不是要把.idea .project等的注释掉<br>

@@ -8,7 +8,10 @@
     </parent>
 
     <artifactId>spring</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    <modules>
+        <module>steam-api</module>
+    </modules>
     <modelVersion>4.0.0</modelVersion>
 
     <dependencies>

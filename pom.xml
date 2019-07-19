@@ -18,6 +18,7 @@
         <module>tool</module>
         <module>learnDependentBySpringBoot</module>
         <module>learnApache</module>
+        <module>learnGoogle</module>
     </modules>
 
     <properties>

@@ -27,6 +27,16 @@
     </properties>
 
     <dependencies>
+
+        <!--写上  XXXX由谁添加，这样可以知道这个dependency确实在用，而不是随意从外面copy进来-->
+        <!--begin 正则表达式，2019年7月3日添加-->
+        <dependency>
+            <groupId>oro</groupId>
+            <artifactId>oro</artifactId>
+            <version>2.0.8</version>
+        </dependency>
+        <!--end -->
+
         <!-- Elasticsearch -->
         <dependency>
             <groupId>org.elasticsearch</groupId>
@@ -224,6 +234,24 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+        </dependency>
+        <dependency>
+            <groupId>oro</groupId>
+            <artifactId>oro</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>oro</groupId>
+            <artifactId>oro</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>oro</groupId>
+            <artifactId>oro</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
