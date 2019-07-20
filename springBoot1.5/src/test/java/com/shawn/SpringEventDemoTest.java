@@ -4,6 +4,9 @@
  */
 package com.shawn;
 
+import cn.hutool.log.Log;
+import cn.hutool.log.LogFactory;
+import com.shawn.springEventDemo.UserServiceNew;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +14,6 @@ import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import com.shawn.springEventDemo.UserServiceNew;
-
-import cn.hutool.log.Log;
-import cn.hutool.log.LogFactory;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -27,7 +25,7 @@ import cn.hutool.log.LogFactory;
  * @since 1.0.0
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = LearnDependentBySpringBootApplication.class)
+@SpringBootTest(classes = SpringBoot15Application.class)
 @ComponentScan(basePackages = {"com.shawn"})
 @SpringBootConfiguration // 必须要加这个注解，貌似这个用于加载org.apache.ibatis.annotations.Mapper
 public class SpringEventDemoTest {

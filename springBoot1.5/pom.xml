@@ -11,18 +11,6 @@
     <artifactId>kaleidoscope</artifactId>
     <packaging>jar</packaging>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <!-- Import dependency management from Spring Boot -->
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <properties>
         <spring-boot.version>1.5.10.RELEASE</spring-boot.version>
@@ -377,7 +365,6 @@
 
     <build>
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -420,16 +407,29 @@
         </profile>
     </profiles>
 
-    <repositories>
-        <repository>
-            <id>nexus-snapshots</id>
-            <url>http://118.126.99.127:9000/nexus/content/repositories/snapshots</url>
-        </repository>
-        <repository>
-            <id>nexus-releases</id>
-            <url>http://118.126.99.127:9000/nexus/content/repositories/releases</url>
-        </repository>
-    </repositories>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <!-- Import dependency management from Spring Boot -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
+    <!--<repositories>-->
+    <!--不注释的话会从repository下载，注释之后现象是从maven.aliyun.com下载-->
+    <!--<repository>-->
+    <!--<id>nexus-snapshots</id>-->
+    <!--<url>http://118.126.99.127:9000/nexus/content/repositories/snapshots</url>-->
+    <!--</repository>-->
+    <!--<repository>-->
+    <!--<id>nexus-releases</id>-->
+    <!--<url>http://118.126.99.127:9000/nexus/content/repositories/releases</url>-->
+    <!--</repository>-->
+    <!--</repositories>-->
 
 </project>
