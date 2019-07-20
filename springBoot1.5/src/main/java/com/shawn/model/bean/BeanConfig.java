@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class BeanConfig {
+    //APITODO 还没有测试结果
     @Bean
     public MethodBean getmethodBean() {
         MethodBean demo = new MethodBean();

@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26546ff4-2b26-4610-9aa2-5c4efe91cdd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot1.5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot1.5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot1.5/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/MethodBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitPullCommitPush.sh" beforeDir="false" afterPath="$PROJECT_DIR$/gitPullCommitPush.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/db/kaleidoscope.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/db/kaleidoscope.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/learnDependentBySpringBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/kaleidoscope.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/LearnDependentBySpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/SpringBoot15Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserServiceNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/UserServiceNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/Area_Type_Json.json" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/resources/Area_Type_Json.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/Mybatis-Plus.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/resources/Mybatis-Plus.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/resources/application-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/MpGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/test/java/com/shawn/MpGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/SpringEventDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/test/java/com/shawn/SpringEventDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/learnJdk/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,15 +74,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="554" />
-          <entry key="md" value="847" />
+          <entry key="java" value="573" />
+          <entry key="md" value="964" />
           <entry key="xml" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="554" />
-          <entry key="Markdown" value="847" />
+          <entry key="JAVA" value="573" />
+          <entry key="Markdown" value="964" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="108" />
         </counts>
@@ -132,8 +105,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <first_editor relative-caret-position="323">
+                <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -155,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -319,8 +292,8 @@
         <option value="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springBoot15Application.java" />
         <option value="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/SpringBoot15Application.java" />
         <option value="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/MethodBean.java" />
-        <option value="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java" />
         <option value="$PROJECT_DIR$/springBoot1.5/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java" />
         <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
@@ -343,7 +316,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -369,6 +342,41 @@
             </path>
             <path>
               <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shawn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shawn" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -385,9 +393,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563584758155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563585058524" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springBoot1.5/pom.xml" />
+    <property name="last_opened_file_path" value="D:/100-workspace/code/zlmsf-frame-from-pig/pig_temp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -535,7 +543,7 @@
       <updated>1554102240579</updated>
       <workItem from="1562589758368" duration="1268000" />
       <workItem from="1563505431631" duration="2087000" />
-      <workItem from="1563582528860" duration="2228000" />
+      <workItem from="1563582528860" duration="2528000" />
     </task>
     <servers />
   </component>
@@ -572,13 +580,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5583000" />
+    <option name="totallyTimeSpent" value="5883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -595,8 +603,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.19180328" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.76226014" visible="true" weight="0.31487513" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23773988" side_tool="true" visible="true" weight="0.31487513" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.76226014" visible="true" weight="0.21389794" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23773988" side_tool="true" visible="true" weight="0.21389794" />
       <window_info anchor="bottom" id="JRebel Console" order="10" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4977307" weight="0.40614334" />
@@ -967,28 +975,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java">
+    <entry file="file://$PROJECT_DIR$/springBoot1.5/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="423" column="54" selection-start-line="423" selection-start-column="54" selection-end-line="423" selection-end-column="54" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1387">
           <caret line="338" column="8" selection-start-line="338" selection-start-column="8" selection-end-line="342" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="423" column="54" selection-start-line="423" selection-start-column="54" selection-end-line="423" selection-end-column="54" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -1003,11 +1001,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
