@@ -1,12 +1,12 @@
 package com.person.json;
 
+import java.io.IOException;
+import java.util.Map;
+
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
-
-import java.io.IOException;
-import java.util.Map;
 
 public class TestJson {
 
@@ -75,7 +75,7 @@ public class TestJson {
     @Test
     public void testJsonAnnotation() {
 
-        JsonAnnotationPojo jUtil = new JsonAnnotationPojo();
+        com.person.json.JsonAnnotationPojo jUtil = new com.person.json.JsonAnnotationPojo();
         jUtil.setName("xujianfneg");
         jUtil.setValue("hahaha");
 
@@ -117,11 +117,6 @@ public class TestJson {
             e.printStackTrace();
         }
 
-    }
-
-    @Test
-    public void testNowTime() {
-        System.out.println("nowTime=" + System.currentTimeMillis());
     }
 
 }

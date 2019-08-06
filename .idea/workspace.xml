@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26546ff4-2b26-4610-9aa2-5c4efe91cdd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itext_asian_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_tool_xmlworker_5_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/dao/OAuthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/service/CustomDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/userDetails/CustomUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdfFontProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdfWithBase64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/ImageTagProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/JsoupUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmetic/arithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/arithmetic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnJdk/src/main/java/com/airth/BitMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/arithmetic/src/main/com/shawn/bitmap/BitMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnJdk/src/main/java/com/shawn/json/TestJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/learnJdk/src/main/java/com/shawn/json/TestJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tool/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/tool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tool/tool.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/learnJdk/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +40,7 @@
     <ignored path="$PROJECT_DIR$/learnGoogle/target/" />
     <ignored path="$PROJECT_DIR$/spring/steam-api/target/" />
     <ignored path="$PROJECT_DIR$/springBoot1.5/target/" />
+    <ignored path="$PROJECT_DIR$/springboot20/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,41 +74,43 @@
     <session id="-785296207">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="25" />
           <entry key="md" value="1" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="25" />
           <entry key="Markdown" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="573" />
-          <entry key="md" value="964" />
-          <entry key="xml" value="108" />
+          <entry key="java" value="653" />
+          <entry key="md" value="969" />
+          <entry key="xml" value="123" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="573" />
-          <entry key="Markdown" value="964" />
+          <entry key="JAVA" value="653" />
+          <entry key="Markdown" value="969" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="XML" value="108" />
+          <entry key="XML" value="123" />
         </counts>
       </usages-collector>
     </session>
@@ -92,93 +118,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/shawn/json/TestJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
-              <caret line="338" column="8" selection-start-line="338" selection-start-column="8" selection-end-line="342" selection-end-column="21" />
+            <state relative-caret-position="242">
+              <caret line="103" column="77" selection-start-line="103" selection-start-column="77" selection-end-line="103" selection-end-column="77" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learnApache/src/main/java/com/com/shawn/VelocityUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arithmetic/src/main/com/shawn/bitmap/BitMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdf.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/ImageTagProcessor.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdfFontProvider.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/JsoupUtils.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdfWithBase64.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/SpringBoot15Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/MethodBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springBoot1.5/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="423" column="54" selection-start-line="423" selection-start-column="54" selection-end-line="423" selection-end-column="54" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="227">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -232,6 +232,7 @@
       <find>Demo2</find>
       <find>module</find>
       <find>learnDependentBy</find>
+      <find>Json</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -244,24 +245,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring/pom.xml" />
-        <option value="$PROJECT_DIR$/tool/pom.xml" />
-        <option value="$PROJECT_DIR$/yxzn-service-kaleidoscope-generate/pom.xml" />
-        <option value="$PROJECT_DIR$/arithmetic/pom.xml" />
-        <option value="$PROJECT_DIR$/kaleidoscope/pom.xml" />
-        <option value="$PROJECT_DIR$/kaleidoscope/src/main/java/com/yxzn/KaleidoscopeApplication.java" />
-        <option value="$PROJECT_DIR$/docs/scripts/logintiaoban.sh" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/learnJdk/src/test/java/com/person/TestLong.java" />
-        <option value="$PROJECT_DIR$/learnJdk/src/test/java/com/person/TestNull.java" />
-        <option value="$PROJECT_DIR$/learnApache/src/test/java/com/person/TestFastDateFormat.java" />
-        <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/KaleidoscopeApplication.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/learnDependentBySpringBootApplication.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserService.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserRegisterEvent.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/UserServiceNew.java" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/main/java/com/shawn/springEventDemo/EmailService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/learnDependentBySpringBoot/src/test/java/com/shawn/SpringEventDemoTest.java" />
         <option value="$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java" />
         <option value="$PROJECT_DIR$/learnApache/resources/test/ifelse.vm" />
@@ -295,6 +283,19 @@
         <option value="$PROJECT_DIR$/springBoot1.5/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/springboot20/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/Springboot20Application.java" />
+        <option value="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/userDetails/CustomerUser.java" />
+        <option value="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/dao/OAuthDao.java" />
+        <option value="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/service/CustomDetailsService.java" />
+        <option value="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/security/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/config/OAuth2Config.java" />
+        <option value="$PROJECT_DIR$/learnJdk/src/main/java/com/shawn/json/TestJson.java" />
+        <option value="$PROJECT_DIR$/arithmetic/src/main/com/shawn/bitmap/BitMap.java" />
+        <option value="$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdfWithBase64.java" />
+        <option value="$PROJECT_DIR$/tool/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -315,9 +316,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="476" />
+    <option name="y" value="12" />
+    <option name="width" value="1345" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -326,55 +328,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shawn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBoot1.5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shawn" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="J2seCodeExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -383,6 +341,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,13 +352,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563585058524" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565092943390" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/100-workspace/code/zlmsf-frame-from-pig/pig_temp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -412,6 +371,7 @@
       <recent name="com.transaction" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\500-java\J2seCodeExample\tool\src\main\com\shawn\html2pdf" />
       <recent name="D:\500-opensource-java\J2seCodeExample" />
       <recent name="D:\500-opensource-java\J2seCodeExample\learnApache\src\test\java\com\person" />
     </key>
@@ -428,7 +388,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestStream.testSteamFilter">
+  <component name="RunManager" selected="Application.BitMap">
+    <configuration name="BitMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shawn.bitmap.BitMap" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shawn.bitmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RateLimiterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shawn.google.rateLimiter.RateLimiterTest" />
       <module name="leanGoogle" />
@@ -474,22 +447,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testOther.testUrlDecode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leanJdk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.other" />
-      <option name="MAIN_CLASS_NAME" value="com.other.testOther" />
-      <option name="METHOD_NAME" value="testUrlDecode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="testOther.testUrlDecode2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leanJdk" />
       <extension name="coverage">
@@ -513,21 +470,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot20Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot20" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shawn.springboot20.Springboot20Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.LearnDependentBySpringBootApplication" />
+      <item itemvalue="Spring Boot.Springboot20Application" />
       <item itemvalue="Application.RateLimiterTest" />
       <item itemvalue="JUnit.TestVelocity.testVelocityOutput" />
-      <item itemvalue="JUnit.testOther.testUrlDecode" />
       <item itemvalue="JUnit.testOther.testUrlDecode2" />
       <item itemvalue="JUnit.TestStream.testSteamFilter" />
+      <item itemvalue="Application.BitMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BitMap" />
         <item itemvalue="JUnit.TestStream.testSteamFilter" />
         <item itemvalue="Application.RateLimiterTest" />
         <item itemvalue="JUnit.TestVelocity.testVelocityOutput" />
         <item itemvalue="JUnit.testOther.testUrlDecode2" />
-        <item itemvalue="JUnit.testOther.testUrlDecode" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +508,12 @@
       <updated>1554102240579</updated>
       <workItem from="1562589758368" duration="1268000" />
       <workItem from="1563505431631" duration="2087000" />
-      <workItem from="1563582528860" duration="2528000" />
+      <workItem from="1563582528860" duration="3923000" />
+      <workItem from="1563587762221" duration="13000" />
+      <workItem from="1563615613885" duration="2029000" />
+      <workItem from="1564366046365" duration="599000" />
+      <workItem from="1564570285697" duration="767000" />
+      <workItem from="1565091662024" duration="1205000" />
     </task>
     <servers />
   </component>
@@ -580,13 +550,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5883000" />
+    <option name="totallyTimeSpent" value="11891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="476" y="12" width="1345" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21789883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -597,14 +567,14 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.62899786" weight="0.46203905" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8107221" weight="0.2258772" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8093385" weight="0.22522523" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7503782" weight="0.39761093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.19180328" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.76226014" visible="true" weight="0.21389794" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.23773988" side_tool="true" visible="true" weight="0.21389794" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.75642025" visible="true" weight="0.29954955" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.24357976" side_tool="true" visible="true" weight="0.29954955" />
       <window_info anchor="bottom" id="JRebel Console" order="10" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4977307" weight="0.40614334" />
@@ -671,116 +641,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tool/src/test/java/com/person/EnableCustomerAccountJobTest.java" />
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/test/java/com/shawn/SpringEventDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tool/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/shawn/multiThread/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/net/URLDecoder.java" />
-    <entry file="file://$PROJECT_DIR$/learnApache/resources/ifelse.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="52" selection-start-column="49" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/other/testOther.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnApache/src/main/java/com/com/shawn/VelocityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnApache/src/test/java/com/shawn/ifelse.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/app/Velocity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/runtime/resource/ResourceManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2869">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnApache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5035">
-          <caret line="265" column="36" selection-start-line="265" selection-start-column="36" selection-end-line="265" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnApache/src/test/java/com/shawn/TestVelocity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/shawn/string/RegexBasicConcept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/regex/RegexUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/oro/oro/2.0.8/oro-2.0.8.jar!/org/apache/oro/text/regex/PatternCompiler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/random/MillerRabin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -867,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,12 +738,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring/steam-api/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -896,20 +753,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/learnGoogle/src/main/java/com/shawn/selfTokenBucket/Bucket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,9 +785,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot1.5/learnDependentBySpringBoot.iml" />
+    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/SpringBoot15Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/MethodBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot1.5/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8037">
+          <caret line="423" column="54" selection-start-line="423" selection-start-column="54" selection-end-line="423" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -951,6 +845,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/config/OAuth2Config.java" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/Springboot20Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/userDetails/CustomUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/dao/OAuthDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/service/CustomDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot20/src/main/java/com/shawn/springboot20/security/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="44" column="87" selection-start-line="44" selection-start-column="87" selection-end-line="44" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot20/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/UserServiceNew.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -958,66 +928,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/learnDependentBySpringBoot.iml">
+    <entry file="file://$PROJECT_DIR$/learnJdk/src/main/java/com/shawn/json/TestJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="103" column="77" selection-start-line="103" selection-start-column="77" selection-end-line="103" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnApache/src/main/java/com/com/shawn/VelocityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arithmetic/src/main/com/shawn/bitmap/BitMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdf.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/springEventDemo/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+    <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/ImageTagProcessor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdfFontProvider.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/JsoupUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tool/pom.xml">
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/MethodBean.java">
+    <entry file="file://$PROJECT_DIR$/tool/src/main/com/shawn/html2pdf/HtmlConvPdfWithBase64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="304">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="423" column="54" selection-start-line="423" selection-start-column="54" selection-end-line="423" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="338" column="8" selection-start-line="338" selection-start-column="8" selection-end-line="342" selection-end-column="21" />
-        </state>
-      </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/SpringBoot15Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springBoot1.5/src/main/java/com/shawn/model/bean/BeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="227">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1036,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>arithmetic</last-edited>
+          <last-edited>tool</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

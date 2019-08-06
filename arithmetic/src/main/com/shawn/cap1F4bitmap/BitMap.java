@@ -1,4 +1,4 @@
-package com.airth;
+package com.shawn.cap1F4bitmap;
 
 public class BitMap {
     //保存数据的
@@ -49,6 +49,7 @@ public class BitMap {
     }
 
     public static void main(String[] args) {
+        //FIXME 没空bitmap解决了什么问题，所以需要重新看一遍=了<br>
         BitMap bitmap = new BitMap(100);
         bitmap.add(7);
         System.out.println("插入7成功");

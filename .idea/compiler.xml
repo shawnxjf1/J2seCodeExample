@@ -12,6 +12,7 @@
         <module name="leanJdk" />
         <module name="learnApache" />
         <module name="learnDependentBySpringBoot" />
+        <module name="springboot20" />
         <module name="steamapi" />
         <module name="tool" />
       </profile>
@@ -26,6 +27,7 @@
       <module name="learnDependentBySpringBoot" target="1.8" />
       <module name="rmi" target="1.8" />
       <module name="spring" target="1.8" />
+      <module name="springboot20" target="1.8" />
       <module name="steamapi" target="1.8" />
       <module name="tool" target="1.8" />
     </bytecodeTargetLevel>
