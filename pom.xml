@@ -46,7 +46,7 @@
         <junit.version>4.12</junit.version>
         <druid.version>1.0.31</druid.version>
         <hutool.version>4.0.6</hutool.version>
-        <fastjson.version>1.2.44</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <spring4all.swagger.version>1.8.0.RELEASE</spring4all.swagger.version>
         <j2se.project.version>1.0.0-SNAPSHOT</j2se.project.version>
         <mybatisplus.spring.boot.version>1.0.5</mybatisplus.spring.boot.version>
@@ -308,7 +308,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.16</version>
+            <version>1.2.83</version>
         </dependency>
 
         <dependency>
